@@ -1,0 +1,27 @@
+var date= new Date();
+var datestring = date.toString();
+var date=new Date();
+var theDay = date.getDate();
+console.log(date);
+console.log(theDay);
+var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+var now = new Date();
+console.log(now);
+var theDay = now.getDay();
+var nameOfToday = dayNames[theDay];
+console.log(nameOfToday);
+//extracting parts of date
+var nowdate = new Date();
+console.log(nowdate);
+var cmonth = nowdate.getMonth();
+console.log(cmonth);
+var cfyear = nowdate.getFullYear();
+console.log(cfyear);
+var cHours = nowdate.getHours();
+console.log(cHours);
+var cmins = nowdate.getMinutes();
+console.log(cmins);
+var csecs = nowdate.getSeconds();
+console.log(csecs);
+var cmilisecs = nowdate.getMilliseconds();
+console.log(cmilisecs);
